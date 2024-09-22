@@ -1,6 +1,0 @@
-[
-{
-  "directory": "/home/clouder/Documents/GitRepos/SPSCQueue",
-  "arguments": ["/home/clouder/Documents/GitRepos/SPSCQueue/.devbox/nix/profile/default/bin/gcc", "-c", "-m64", "-o", "build/.objs/main/linux/x86_64/release/src/main.cpp.o", "src/main.cpp"],
-  "file": "src/main.cpp"
-}]
