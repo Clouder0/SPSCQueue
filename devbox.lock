@@ -1,0 +1,117 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "gcc@latest": {
+      "last_modified": "2024-09-10T15:01:03Z",
+      "resolved": "github:NixOS/nixpkgs/5ed627539ac84809c78b2dd6d26a5cebeb5ae269#gcc14",
+      "source": "devbox-search",
+      "version": "14.2.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/d2ddsj3yf44iwxs7jz1rd3dx89sqdsv3-gcc-wrapper-14.2.0",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/n9cpkykn9bwf8hapikkl7bkdjyc1y5qw-gcc-wrapper-14.2.0-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/b8kf4i2jj9xxn354kd9lymkdbvg4bfv1-gcc-wrapper-14.2.0-info"
+            }
+          ],
+          "store_path": "/nix/store/d2ddsj3yf44iwxs7jz1rd3dx89sqdsv3-gcc-wrapper-14.2.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/55gmv31g2d3ki6k8jf161386x7y4yq4c-gcc-wrapper-14.2.0",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/6bm11ylcx5dai08zqpd27j8pr4hgr3yb-gcc-wrapper-14.2.0-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/x3bxy5ma2c60zmi7v8969l844azdkw6i-gcc-wrapper-14.2.0-info"
+            }
+          ],
+          "store_path": "/nix/store/55gmv31g2d3ki6k8jf161386x7y4yq4c-gcc-wrapper-14.2.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yjwfyxiqx33l2lvq87472h765iqmmv6f-gcc-wrapper-14.2.0",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/v9wis2fjj18r5khjrkyjhjq9vg17cmyv-gcc-wrapper-14.2.0-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/wbvv0fgy0gmjdbm6ksi7ikz60sc95ijh-gcc-wrapper-14.2.0-info"
+            }
+          ],
+          "store_path": "/nix/store/yjwfyxiqx33l2lvq87472h765iqmmv6f-gcc-wrapper-14.2.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/30qwwi3p08540kpk3gjhk61sw4hsfph7-gcc-wrapper-14.2.0",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/kln5g1ml2xb5dzays11n58hcrwbjg3cz-gcc-wrapper-14.2.0-man",
+              "default": true
+            },
+            {
+              "name": "info",
+              "path": "/nix/store/vzn2z8m1hbsqsgr6fd877zn2qhg18ggs-gcc-wrapper-14.2.0-info"
+            }
+          ],
+          "store_path": "/nix/store/30qwwi3p08540kpk3gjhk61sw4hsfph7-gcc-wrapper-14.2.0"
+        }
+      }
+    },
+    "xmake@latest": {
+      "last_modified": "2024-09-15T21:49:16Z",
+      "resolved": "github:NixOS/nixpkgs/039b72d0c738c934e2e36d7fc5520d1b425287a6#xmake",
+      "source": "devbox-search",
+      "version": "2.9.4",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/iqnfhyzq4p1xk7chzxqzjzi8blkqkdrz-xmake-2.9.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/iqnfhyzq4p1xk7chzxqzjzi8blkqkdrz-xmake-2.9.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3sjspckigc8q4j1l6wjplmikmkhd3iqq-xmake-2.9.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3sjspckigc8q4j1l6wjplmikmkhd3iqq-xmake-2.9.4"
+        }
+      }
+    }
+  }
+}
